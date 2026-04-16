@@ -1,6 +1,6 @@
 INFIX TO POSTFIX AND PREFIX SOLUTION
 
-1. WORKFLOW
+1. THE WORKFLOW
 
 1. Start the program.
 2. Accept the infix expression from the user.
@@ -18,7 +18,9 @@ INFIX TO POSTFIX AND PREFIX SOLUTION
 6. Display the postfix and prefix expressions.
 7. End the program.
 
-2. PSEUDOCODE
+
+
+2. THE PSEUDOCODE
 
 BEGIN
     INPUT infixExpression
@@ -79,7 +81,9 @@ FUNCTION postfixToPrefix(postfix)
     RETURN top of expressions
 END FUNCTION
 
-3. JAVA PROGRAM
+
+
+3. THE JAVA PROGRAM
 
 import java.util.ArrayList;
 import java.util.List;
