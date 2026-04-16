@@ -6,15 +6,15 @@ INFIX TO POSTFIX AND PREFIX SOLUTION
 2. Accept the infix expression from the user.
 3. Tokenize the expression into operands, operators, and parentheses.
 4. Convert the infix expression to postfix:
-   - If the token is an operand, add it to the output.
-   - If the token is "(", push it onto the stack.
-   - If the token is ")", pop operators until "(" is found.
-   - If the token is an operator, pop operators with higher or equal precedence first, then push the current operator.
+     If the token is an operand, add it to the output.
+     If the token is "(", push it onto the stack.
+     If the token is ")", pop operators until "(" is found.
+     If the token is an operator, pop operators with higher or equal precedence first, then push the current operator.
 5. Convert the postfix expression to prefix:
-   - If the token is an operand, push it onto the stack.
-   - If the token is an operator, pop two operands/expressions.
-   - Form a new prefix expression as operator + left + right.
-   - Push the new expression back onto the stack.
+     If the token is an operand, push it onto the stack.
+     If the token is an operator, pop two operands/expressions.
+     Form a new prefix expression as operator + left + right.
+     Push the new expression back onto the stack.
 6. Display the postfix and prefix expressions.
 7. End the program.
 
