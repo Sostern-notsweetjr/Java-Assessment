@@ -1,6 +1,8 @@
-#SOSTERN HAMULAMBO MWENDA 
-#202409694
-#ICT 202 ASSESMENT
+SOSTERN HAMULAMBO MWENDA 
+
+202409694
+
+ICT 202 ASSESMENT
 # Infix to Postfix and Prefix
 
 ## Workflow
@@ -9,15 +11,15 @@
 2. Read the infix expression from the user.
 3. Break the expression into tokens such as operands, operators, and parentheses.
 4. Convert the infix expression to postfix using a stack:
-   - Send operands directly to the output.
-   - Push `(` onto the stack.
-   - When `)` is found, pop operators until `(` is reached.
-   - For an operator, pop higher-precedence operators from the stack first, then push the current operator.
+     Send operands directly to the output.
+     Push `(` onto the stack.
+     When `)` is found, pop operators until `(` is reached.
+     For an operator, pop higher-precedence operators from the stack first, then push the current operator.
 5. Convert the postfix expression to prefix using another stack:
-   - Push operands onto the stack.
-   - When an operator is found, pop the top two operands/expressions.
-   - Form a new prefix string as `operator left right`.
-   - Push the new string back onto the stack.
+     Push operands onto the stack.
+     When an operator is found, pop the top two operands/expressions.
+     Form a new prefix string as `operator left right`.
+     Push the new string back onto the stack.
 6. Display the postfix and prefix expressions.
 7. End the program.
 
