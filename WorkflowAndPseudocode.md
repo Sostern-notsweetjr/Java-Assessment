@@ -1,3 +1,6 @@
+#SOSTERN HAMULAMBO MWENDA 
+#202409694
+#ICT 202 ASSESMENT
 # Infix to Postfix and Prefix
 
 ## Workflow
